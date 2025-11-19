@@ -13,7 +13,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/ideas")
-@CrossOrigin(origins = "*") // Esto permitirá que Angular se conecte después
 public class VideoIdeaController {
 
     @Autowired
